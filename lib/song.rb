@@ -32,6 +32,7 @@ class Song
     @@all.each do |f|
       if f.name == str
         return f.name
+      end
     end
   end
 end
