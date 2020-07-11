@@ -29,10 +29,28 @@ class Song
   end
   
   def self.find_by_name(str)
-    self.all.find {|string|string.name == str}
+    if song.name = str
+      return str
     end
   end
+end
   
-  def find_or_create_by_name(str)
-    self.find_by_name(str) || self.create_by_name(str)
-  end
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  # def self.find_by_name(str)
+  #   self.all.find {|string|string.name == str}
+  #   end
+  # end
+  
+  # def find_or_create_by_name(str)
+  #   self.find_by_name(str) || self.create_by_name(str)
+  # end
