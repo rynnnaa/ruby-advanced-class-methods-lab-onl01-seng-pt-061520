@@ -30,8 +30,7 @@ class Song
   
   def self.find_by_name(str)
     @@all.each do |f|
-      if f == str
-        return f
+        return f if str == f
       end
     end
   end
